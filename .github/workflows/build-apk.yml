@@ -23,8 +23,10 @@ jobs:
       - name: Instalar dependencias
         run: npm install
 
-      - name: Sincronizar la app web con Android
-        run: npx cap sync android
+       - name: Sincronizar la app web con Android
+        run: |
+          npx cap add android || true
+          npx cap sync android
 
       - name: Compilar APK (debug)
         working-directory: android
