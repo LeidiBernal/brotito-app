@@ -1,0 +1,9 @@
+{
+  "appId": "co.sena.brotito",
+  "appName": "Brotito",
+  "webDir": "www",
+  "backgroundColor": "#f4fbf6",
+  "android": {
+    "allowMixedContent": false
+  }
+}
